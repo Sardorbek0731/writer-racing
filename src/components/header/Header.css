@@ -1,0 +1,18 @@
+header {
+  padding: 2rem 0;
+}
+
+.logo {
+  width: 4rem;
+  height: auto;
+}
+
+.navbar a {
+  margin-right: 1.5rem;
+  color: black;
+  font-size: 1.1rem;
+}
+
+.navbar a:last-child {
+  margin-right: 0;
+}

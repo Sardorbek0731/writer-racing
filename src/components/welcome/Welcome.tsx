@@ -1,7 +1,7 @@
 import "./Welcome.css";
 
 function Welcome(): JSX.Element {
-  return <section>Welcome</section>;
+  return <section>Bosh sahifa</section>;
 }
 
 export default Welcome;

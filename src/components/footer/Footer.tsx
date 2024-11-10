@@ -1,7 +1,11 @@
 import "./Footer.css";
 
 function Footer(): JSX.Element {
-  return <footer>Footer</footer>;
+  return (
+    <footer>
+      <div className="container">Footer</div>
+    </footer>
+  );
 }
 
 export default Footer;

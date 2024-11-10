@@ -1,7 +1,11 @@
 import "./Competition.css";
 
 function Competition(): JSX.Element {
-  return <div>Competition</div>;
+  return (
+    <section>
+      <div className="container">Musobaqa</div>
+    </section>
+  );
 }
 
 export default Competition;

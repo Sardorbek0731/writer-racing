@@ -15,3 +15,29 @@ html {
 body {
   font-family: "Roboto", serif;
 }
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 10rem;
+}
+
+/* Library */
+.flex {
+  display: flex;
+}
+.alignCenter {
+  align-items: center;
+}
+.justifyCenter {
+  justify-content: center;
+}
+.justifyBetween {
+  justify-content: space-between;
+}
+
+.wp-100 {
+  width: 100%;
+}
