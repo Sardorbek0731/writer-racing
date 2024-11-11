@@ -1,16 +1,22 @@
 header {
-  padding: 2rem 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1.8rem 0;
+  background-color: rgb(255, 149, 0);
 }
 
 .logo {
-  width: 3.5rem;
+  width: 3.8rem;
   height: auto;
 }
 
 .navbar a {
-  margin-right: 1.5rem;
-  color: black;
-  font-size: 1.1rem;
+  margin-right: 2rem;
+  color: white;
+  font-weight: 400;
+  font-size: 1.08rem;
 }
 
 .navbar a:last-child {

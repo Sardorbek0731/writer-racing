@@ -15,7 +15,6 @@ function Header(): JSX.Element {
 
         <nav className="navbar">
           <NavLink to="/">Bosh sahifa</NavLink>
-          <NavLink to="/competition">Musobaqa</NavLink>
           <NavLink to="/history">Natijalar</NavLink>
           <NavLink to="/help">Yordam</NavLink>
         </nav>

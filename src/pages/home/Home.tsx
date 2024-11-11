@@ -8,10 +8,8 @@ import Advantages from "../../components/advantages/Advantages";
 function Home(): JSX.Element {
   return (
     <main>
-      <div className="container">
-        <Welcome />
-        <Advantages />
-      </div>
+      <Welcome />
+      <Advantages />
     </main>
   );
 }
