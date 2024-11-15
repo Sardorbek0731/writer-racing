@@ -9,6 +9,7 @@ import Home from "./pages/home/Home";
 import Competition from "./pages/competition/Competition";
 import History from "./pages/history/History";
 import Help from "./pages/help/Help";
+import Register from "./pages/register/Register";
 
 // Components
 import Header from "./components/header/Header";
@@ -26,6 +27,7 @@ function App(): JSX.Element {
         <Route path="/competition" element={<Competition />} />
         <Route path="/history" element={<History />} />
         <Route path="/help" element={<Help />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
 
       <Footer />

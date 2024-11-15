@@ -22,6 +22,10 @@ function Header(): JSX.Element {
           <NavLink to="/history">Natijalar</NavLink>
           <NavLink to="/help">Yordam</NavLink>
         </nav>
+
+        <NavLink to="/register" className="signBtn">
+          <h1>Ro'yxatdan o'tish</h1>
+        </NavLink>
       </div>
     </header>
   );
