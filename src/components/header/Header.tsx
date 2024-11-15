@@ -11,10 +11,14 @@ function Header(): JSX.Element {
   return (
     <header>
       <div className="container flex alignCenter justifyBetween">
-        <img src={logo} className="logo" alt="Writer Racing Logo" />
+        <div className="logo flex alignCenter">
+          <img src={logo} alt="Writer Racing Logo" />
+          <h1>Racer</h1>
+        </div>
 
         <nav className="navbar">
           <NavLink to="/">Bosh sahifa</NavLink>
+          <NavLink to="/competition">Musobaqalar</NavLink>
           <NavLink to="/history">Natijalar</NavLink>
           <NavLink to="/help">Yordam</NavLink>
         </nav>
